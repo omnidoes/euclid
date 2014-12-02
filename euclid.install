@@ -66,7 +66,8 @@ function euclid_install() {
    */
   
   $enable_themes = array(
-    'theme_default' => 'falcor'
+    'theme_default' => 'falcor',
+    'admin_theme' => 'adminimal'
   );
   theme_enable($enable_themes);
 
@@ -77,7 +78,7 @@ function euclid_install() {
   }
 
   // Disable Bartik
-  theme_disable(array('bartik'));
+  theme_disable(array('bartik', 'seven'));
 
 
 
