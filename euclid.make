@@ -27,3 +27,9 @@ projects[views][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
 ; Custom
+
+; Themes
+projects[falcor][type] = "theme"
+projects[falcor][download][type] = "git"
+projects[falcor][download][url] = "git://github.com/aaronlsilber/falcor.git"
+projects[falcor][download][branch] = "master"
