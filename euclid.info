@@ -28,6 +28,7 @@ dependencies[] = rdf
 dependencies[] = addanother
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
+dependencies[] = adminimal_admin_menu
 dependencies[] = backup_migrate
 dependencies[] = block_class
 dependencies[] = ckeditor
