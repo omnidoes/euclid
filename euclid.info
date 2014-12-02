@@ -44,6 +44,5 @@ dependencies[] = metatag
 dependencies[] = module_filter
 dependencies[] = pathauto
 dependencies[] = token
-dependencies[] = toolbar
 dependencies[] = views
 dependencies[] = views_ui
