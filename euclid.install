@@ -77,6 +77,28 @@ function euclid_install() {
 
 
 
+
+  /*
+    Enable and set default theme
+   */
+  
+  $enable_themes = array(
+    'theme_default' => 'falcor'
+  );
+  theme_enable($enable_themes);
+
+  foreach ($enable_themes as $var => $theme) {
+    if (!is_numeric($var)) {
+      variable_set($var, $theme);
+    }
+  }
+
+  // Disable Bartik
+  theme_disable(array('bartik'));
+
+
+
+
   /*
     Enable some standard blocks
     */
