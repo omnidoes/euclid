@@ -4,6 +4,7 @@ api = 2
 ; Contrib
 projects[addanother][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
+projects[adminimal_admin_menu][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
 projects[block_class][subdir] = "contrib"
 projects[ckeditor][subdir] = "contrib"
@@ -33,6 +34,8 @@ projects[xmlsitemap][subdir] = "contrib"
 ; Custom
 
 ; Themes
+projects[adminimal_theme][type] = "theme"
+
 projects[falcor][type] = "theme"
 projects[falcor][download][type] = "git"
 projects[falcor][download][url] = "git://github.com/aaronlsilber/falcor.git"
