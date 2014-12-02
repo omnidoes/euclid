@@ -195,7 +195,6 @@ function euclid_install() {
       'locked' => 0,
     ),
   );
-
   foreach ($types as $type) {
     $type = node_type_set_defaults($type);
     node_type_save($type);
