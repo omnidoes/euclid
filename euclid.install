@@ -12,7 +12,13 @@
  * @see system_install()
  */
 function euclid_install() {
-  // Add text formats.
+
+
+  /*
+   Add text formats.
+   */
+
+  // Add filtred HTML text format.
   $filtered_html_format = array(
     'format' => 'filtered_html',
     'name' => 'Filtered HTML',
@@ -43,6 +49,7 @@ function euclid_install() {
   $filtered_html_format = (object) $filtered_html_format;
   filter_format_save($filtered_html_format);
 
+  // Add Full HTML text format
   $full_html_format = array(
     'format' => 'full_html',
     'name' => 'Full HTML',
@@ -68,7 +75,12 @@ function euclid_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  // Enable some standard blocks.
+
+
+  /*
+    Enable some standard blocks
+    */
+
   $default_theme = variable_get('theme_default', 'falcor');
   $admin_theme = 'seven';
   $blocks = array(
@@ -149,9 +161,15 @@ function euclid_install() {
   }
   $query->execute();
 
-  // Insert default pre-defined node types into the database. For a complete
-  // list of available node type attributes, refer to the node type API
-  // documentation at: http://api.drupal.org/api/HEAD/function/hook_node_info.
+
+
+
+  /* 
+    Insert default pre-defined node types into the database. For a complete
+    list of available node type attributes, refer to the node type API
+    documentation at: http://api.drupal.org/api/HEAD/function/hook_node_info.
+    */
+   
   $types = array(
     array(
       'type' => 'page',
@@ -273,9 +291,11 @@ function euclid_install() {
   field_create_instance($instance);
 
 
-  // Create an image field named "Image", enabled for the 'article' content type.
-  // Many of the following values will be defaulted, they're included here as an illustrative examples.
-  // See http://api.drupal.org/api/function/field_create_field/7
+  /*
+    Create an image field named "Image", enabled for the 'article' content type.
+    Many of the following values will be defaulted, they're included here as an illustrative examples.
+    See http://api.drupal.org/api/function/field_create_field/7
+    */
 
   $field = array(
     'field_name' => 'field_image',
