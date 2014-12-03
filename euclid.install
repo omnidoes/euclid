@@ -71,6 +71,8 @@ function euclid_install() {
   );
   theme_enable($enable_themes);
 
+  theme_disable(array('seven'));
+
   foreach ($enable_themes as $var => $theme) {
     if (!is_numeric($var)) {
       variable_set($var, $theme);
@@ -78,7 +80,7 @@ function euclid_install() {
   }
 
   // Disable Bartik
-  theme_disable(array('bartik', 'seven'));
+  theme_disable(array('bartik'));
 
 
 
