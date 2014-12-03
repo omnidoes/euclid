@@ -296,6 +296,7 @@ function euclid_install() {
   field_create_instance($instance);
 
 
+
   /*
     Create an image field named "Image", enabled for the 'article' content type.
     Many of the following values will be defaulted, they're included here as an illustrative examples.
@@ -318,7 +319,6 @@ function euclid_install() {
     ),
   );
   field_create_field($field);
-
 
   // Many of the following values will be defaulted, they're included here as an illustrative examples.
   // See http://api.drupal.org/api/function/field_create_instance/7
@@ -365,6 +365,12 @@ function euclid_install() {
     ),
   );
   field_create_instance($instance);
+
+  // Set JPEG image quality to 100% by default
+  variable_set('image_jpeg_quality', 100);
+
+
+
 
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
