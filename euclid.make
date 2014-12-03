@@ -41,7 +41,7 @@ projects[falcor][download][type] = "git"
 projects[falcor][download][url] = "git://github.com/aaronlsilber/falcor.git"
 projects[falcor][download][branch] = "master"
 
-; Libraries
+; Libraries 
 ;libraries[fitvids][download][type] = "file"
 ;libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 ;libraries[fitvids][directory_name] = "fitvids"
