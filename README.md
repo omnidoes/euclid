@@ -8,8 +8,12 @@ This Drupal distribution is used at Omni for quickly generating base site instal
 Documentation
 -------------
 
-Try It Out
+Requirements
 ----------
+
+| Package | download |
+| ------- | -------- |
+| Drush | (https://github.com/drush-ops/drush) |
 
 You can try out Chef Provisioning in many different flavors.
 
