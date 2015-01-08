@@ -28,6 +28,7 @@ projects[pathauto][subdir] = "contrib"
 projects[plup][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[views][subdir] = "contrib"
+projects[views_bulk_operations][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
