@@ -3,26 +3,21 @@ Euclid
 
 This Drupal distribution is used at Omni for quickly generating base site installations.
 
-[Link Example](http://www.google.com)
-
 Documentation
 -------------
 
 Requirements
 ----------
 
-| Package | download |
+| Package | Download |
 | ------- | -------- |
-| Drush | (https://github.com/drush-ops/drush) |
+| Drush | https://github.com/drush-ops/drush |
 
-You can try out Chef Provisioning in many different flavors.
+Additionally, we commonly use a [Vagrant Virtualbox](https://www.vagrantup.com/), but you can also install something like XAMP for your local server environment.
 
-### Vagrant
+### Download
 
-To give it a spin, install Vagrant and VirtualBox and try this from the `chef-provisioning/docs/examples` directory:
-
-```
-gem install chef-provisioning chef-provisioning-vagrant
-export CHEF_DRIVER=vagrant
-chef-client -z vagrant_linux.rb simple.rb
-```
+Download this repo or clone it using:
+...
+git clone https://github.com/omnidoes/euclid
+...
