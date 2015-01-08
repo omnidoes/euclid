@@ -16,18 +16,18 @@ Install
 ----------
 
 Assuming you're using Vagrant, download this repo or clone it to your vagrant root (just outside the 'data' directory) using:
-```Shell
+```
 git clone https://github.com/omnidoes/euclid euclid
 ```
 
 #### Provision the Environment
 
 Run Drush make from your Vagrant root like so:
-```Shell
-; Notice how we're running make to a site directory within our Virtualbox's data directory
-; Replace [site-name] with the name of your site
+```
 drush make euclid\euclid-stub.make data\[site-name]
 ```
+_Notice how we're running make to a site directory within our Virtualbox's data directory
+Replace [site-name] with the name of your site_
 
 ### Install the Environment using Drush
 
@@ -37,7 +37,7 @@ SSH-ing into your environment is as simple as running ```vagrant ssh``` from you
 
 Once you're in, navigate to `~/sites/[site-name]` and install the site using Drush and the Euclid installation profile (we're also setting the username and password for admin);
 
-```Shell
+```
 drush si euclid --db-url=mysql://root:root@localhost/[site-name] --account-name=admin --account-pass=admin
 ```
 
