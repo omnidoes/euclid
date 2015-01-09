@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the VBO People Admin feature.
- */
-
-include_once 'vbo_people_admin.features.inc';
