@@ -45,6 +45,7 @@ dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = metatag
 dependencies[] = module_filter
+dependenices[] = multiple_selects
 dependencies[] = pathauto
 dependencies[] = token
 dependencies[] = views
