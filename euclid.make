@@ -37,6 +37,7 @@ projects[xmlsitemap][subdir] = "contrib"
 
 ; Custom
 
+
 ; Themes
 projects[adminimal_theme][type] = "theme"
 
@@ -44,6 +45,14 @@ projects[falcor][type] = "theme"
 projects[falcor][download][type] = "git"
 projects[falcor][download][url] = "git://github.com/aaronlsilber/falcor.git"
 projects[falcor][download][branch] = "master"
+
+
+; Features
+projects[euclid_article_content_type][subdir] = "features"
+projects[euclid_article_content_type][download][type] = "git"
+projects[euclid_article_content_type][download][url] = "https://github.com/omnidoes/euclid_article_content_type.git"
+projects[euclid_article_content_type][download][branch] = "master"
+
 
 ; Libraries 
 ;libraries[fitvids][download][type] = "file"

@@ -51,3 +51,6 @@ dependencies[] = token
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
+
+;Feature modules for Euclid
+dependencies[] = euclid_article_content_type
