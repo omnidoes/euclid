@@ -43,6 +43,7 @@ dependencies[] = honeypot
 dependencies[] = imce
 dependencies[] = jquery_update
 dependencies[] = libraries
+dependencies[] = media
 dependencies[] = metatag
 dependencies[] = module_filter
 dependenices[] = multiple_selects
