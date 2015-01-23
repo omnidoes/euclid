@@ -47,6 +47,7 @@ dependencies[] = metatag
 dependencies[] = module_filter
 dependenices[] = multiple_selects
 dependencies[] = pathauto
+dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = views
 dependencies[] = views_bulk_operations
