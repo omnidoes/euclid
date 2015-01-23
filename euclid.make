@@ -50,11 +50,11 @@ projects[falcor][download][branch] = "master"
 
 
 ; Features
-;projects[image_gallery][type] = "module"
-;projects[image_gallery][subdir] = "features"
-;projects[image_gallery][download][type] = "git"
-;projects[image_gallery][download][url] = "git://github.com/prinsmike/image_gallery.git"
-;projects[image_gallery][download][branch] = "master"
+projects[euclid_article][type] = "module"
+projects[euclid_article][subdir] = "features"
+projects[euclid_article][download][type] = "git"
+projects[euclid_article][download][url] = "git://github.com/omnidoes/euclid_article.git"
+projects[euclid_article][download][branch] = "master"
 
 
 ; Libraries 

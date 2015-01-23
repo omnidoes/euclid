@@ -1,9 +1,10 @@
 name = Euclid
 description = Omni's base installation.
-version = VERSION
+
 core = 7.x
 
-;Standard install core modules
+; Core
+
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
@@ -24,7 +25,8 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
-;Contrib modules for Euclid
+; Contrib
+
 dependencies[] = addanother
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
@@ -39,7 +41,6 @@ dependencies[] = devel
 dependencies[] = entity
 dependencies[] = features
 dependencies[] = field_group
-dependencies[] = 
 dependencies[] = honeypot
 dependencies[] = imce
 dependencies[] = jquery_update
@@ -54,3 +55,7 @@ dependencies[] = token
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
+
+; Features
+
+dependencies[] = euclid_article
