@@ -48,17 +48,17 @@ projects[falcor][download][branch] = "master"
 
 
 ; Features
-projects[image_gallery][type] = "module"
-projects[image_gallery][subdir] = "features"
-projects[image_gallery][download][type] = "git"
-projects[image_gallery][download][url] = "git://github.com/prinsmike/image_gallery.git"
-projects[image_gallery][download][branch] = "master"
+;projects[image_gallery][type] = "module"
+;projects[image_gallery][subdir] = "features"
+;projects[image_gallery][download][type] = "git"
+;projects[image_gallery][download][url] = "git://github.com/prinsmike/image_gallery.git"
+;projects[image_gallery][download][branch] = "master"
 
 
 ; Libraries 
-;libraries[fitvids][download][type] = "file"
-;libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
-;libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][download][type] = "file"
+libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+libraries[fitvids][directory_name] = "fitvids"
 
 libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
