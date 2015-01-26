@@ -228,9 +228,6 @@ function euclid_install() {
   // Set JPEG image quality to 100% by default
   variable_set('image_jpeg_quality', 100);
 
-
-
-
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
@@ -261,12 +258,12 @@ function euclid_install() {
   // Update the menu router information.
   menu_rebuild();
 
-  // Enable the admin theme.
-  // db_update('system')
-  //   ->fields(array('status' => 1))
-  //   ->condition('type', 'theme')
-  //   ->condition('name', 'seven')
-  //   ->execute();
-  // variable_set('admin_theme', 'seven');
-  // variable_set('node_admin_theme', '1');
+  
+  /*
+   * Add Another Config
+   */
+  
+  variable_set('addanother_default_button', 0);
+  variable_set('addanother_default_tab', 0);
+  variable_set('addanother_default_tab_edit', 0);
 }
