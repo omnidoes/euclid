@@ -65,8 +65,11 @@ function euclid_install() {
     Enable and set default theme
    */
   
+  // Disable Themes
   theme_disable(array('seven'));
+  theme_disable(array('bartik'));
 
+  // Enable Themes
   $enable_themes = array(
     'theme_default' => 'falcor',
     'admin_theme' => 'adminimal'
@@ -78,9 +81,6 @@ function euclid_install() {
       variable_set($var, $theme);
     }
   }
-
-  // Disable Bartik
-  theme_disable(array('bartik'));
 
 
 
@@ -262,11 +262,11 @@ function euclid_install() {
   menu_rebuild();
 
   // Enable the admin theme.
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', 'seven')
-    ->execute();
-  variable_set('admin_theme', 'seven');
-  variable_set('node_admin_theme', '1');
+  // db_update('system')
+  //   ->fields(array('status' => 1))
+  //   ->condition('type', 'theme')
+  //   ->condition('name', 'seven')
+  //   ->execute();
+  // variable_set('admin_theme', 'seven');
+  // variable_set('node_admin_theme', '1');
 }
