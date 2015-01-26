@@ -65,13 +65,13 @@ function euclid_install() {
     Enable and set default theme
    */
   
+  theme_disable(array('seven'));
+
   $enable_themes = array(
     'theme_default' => 'falcor',
     'admin_theme' => 'adminimal'
   );
   theme_enable($enable_themes);
-
-  theme_disable(array('seven'));
 
   foreach ($enable_themes as $var => $theme) {
     if (!is_numeric($var)) {
