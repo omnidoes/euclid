@@ -13,6 +13,8 @@
  */
 function euclid_install() {
 
+  // set the time limit to unlimited for install
+  drupal_set_time_liomit(0);
 
   /*
    Add text formats.
