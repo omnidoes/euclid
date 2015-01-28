@@ -25,7 +25,7 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
-; Contrib
+; Contrib - (Enabled by default)
 
 dependencies[] = addanother
 dependencies[] = admin_menu
