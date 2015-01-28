@@ -10,7 +10,7 @@ Requirements
 | ------- | -------- |
 | Drush | https://github.com/drush-ops/drush |
 
-Additionally, we commonly use a [Vagrant Virtualbox](https://www.vagrantup.com/), but you can also install something like XAMP for your local server environment.
+Additionally, we commonly use a [Vagrant Virtualbox](https://www.vagrantup.com/), but you can also install something like XAMP for your local server environment. We find that the [Vagrant Drupal Development project](https://www.drupal.org/project/vdd) is able to get us up and running very quickly.
 
 Install
 ----------
