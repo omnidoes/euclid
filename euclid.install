@@ -88,6 +88,11 @@ function euclid_install() {
   variable_set('node_admin_theme', 1);
 
 
+  /*
+   * Default the front-page to 'blank'. Displays content feed.
+   */
+  variable_set('site_frontpage', '');
+
 
   /*
     Enable some standard blocks
