@@ -84,6 +84,8 @@ function euclid_install() {
     }
   }
 
+  // Use the administration theme when editing or creating content
+  variable_set('node_admin_theme', 1);
 
 
 
