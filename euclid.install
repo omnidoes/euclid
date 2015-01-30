@@ -91,7 +91,7 @@ function euclid_install() {
   /*
    * Default the front-page to 'blank'. Displays content feed.
    */
-  variable_set('site_frontpage', '');
+  // variable_set('site_frontpage', '');
 
 
   /*
