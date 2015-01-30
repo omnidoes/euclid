@@ -277,14 +277,3 @@ function euclid_install() {
   variable_set('addanother_default_tab_edit', 0);
 
 }
-
-
-function euclid_install_tasks() {
-
-  euclid_default_content_install();
-}
-
-function euclid_default_content_install() {
-
-  devel_generate();
-}
