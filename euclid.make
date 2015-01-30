@@ -52,6 +52,7 @@ projects[falcor][type] = "theme"
 projects[falcor][download][type] = "git"
 projects[falcor][download][url] = "git://github.com/omnidoes/pavlov.git"
 projects[falcor][download][branch] = "master"
+projects[falcor][download][working-copy] = TRUE
 
 
 ; Features
