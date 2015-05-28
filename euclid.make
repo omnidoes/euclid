@@ -47,22 +47,22 @@ projects[adminimal_theme][type] = "theme"
 
 projects[falcor][type] = "theme"
 projects[falcor][download][type] = "git"
-projects[falcor][download][url] = "git://github.com/aaronlsilber/falcor.git"
+projects[falcor][download][url] = "git://github.com/aaronlsilber/falkor.git"
 projects[falcor][download][branch] = "master"
 
-projects[pavlov][type] = "theme"
-projects[pavlov][download][type] = "git"
-projects[pavlov][download][url] = "git://github.com/omnidoes/pavlov.git"
-projects[pavlov][download][branch] = "master"
-projects[pavlov][download][working-copy] = TRUE
+;projects[pavlov][type] = "theme"
+;projects[pavlov][download][type] = "git"
+;projects[pavlov][download][url] = "git://github.com/omnidoes/pavlov.git"
+;projects[pavlov][download][branch] = "master"
+;projects[pavlov][download][working-copy] = TRUE
 
 
 ; Features
-projects[euclid_article][type] = "module"
-projects[euclid_article][subdir] = "features"
-projects[euclid_article][download][type] = "git"
-projects[euclid_article][download][url] = "git://github.com/omnidoes/euclid_article.git"
-projects[euclid_article][download][branch] = "master"
+;projects[euclid_article][type] = "module"
+;projects[euclid_article][subdir] = "features"
+;projects[euclid_article][download][type] = "git"
+;projects[euclid_article][download][url] = "git://github.com/omnidoes/euclid_article.git"
+;projects[euclid_article][download][branch] = "master"
 
 
 ; Libraries 
