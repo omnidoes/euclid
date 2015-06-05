@@ -24,7 +24,7 @@ git clone https://github.com/omnidoes/euclid euclid
 
 Run Drush make from your Vagrant root like so:
 ```
-drush make euclid\euclid-stub.make data\[site-name]
+drush make euclid\build-euclid.make data\[site-name]
 ```
 _Notice how we're running make to a site directory within our Virtualbox's data directory
 Replace [site-name] with the name of your site_
