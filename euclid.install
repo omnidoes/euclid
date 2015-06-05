@@ -73,7 +73,7 @@ function euclid_install() {
 
   // Enable Themes
   $enable_themes = array(
-    'theme_default' => 'falcor',
+    'theme_default' => 'falkor',
     'admin_theme' => 'adminimal'
   );
   theme_enable($enable_themes);
@@ -98,7 +98,7 @@ function euclid_install() {
     Enable some standard blocks
     */
 
-  $default_theme = variable_get('theme_default', 'falcor');
+  $default_theme = variable_get('theme_default', 'falkor');
   $admin_theme = 'seven';
   $blocks = array(
     array(
