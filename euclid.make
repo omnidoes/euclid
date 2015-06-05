@@ -45,10 +45,10 @@ projects[xmlsitemap][subdir] = "contrib"
 ; Themes
 projects[adminimal_theme][type] = "theme"
 
-projects[falcor][type] = "theme"
-projects[falcor][download][type] = "git"
-projects[falcor][download][url] = "git://github.com/aaronlsilber/falkor.git"
-projects[falcor][download][branch] = "master"
+projects[falkor][type] = "theme"
+projects[falkor][download][type] = "git"
+projects[falkor][download][url] = "git://github.com/aaronlsilber/falkor.git"
+projects[falkor][download][branch] = "master"
 
 ; Libraries 
 libraries[fitvids][download][type] = "file"
