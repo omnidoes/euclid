@@ -61,7 +61,3 @@ dependencies[] = uuid_features
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
-
-; Features
-
-dependencies[] = euclid_article
