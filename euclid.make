@@ -50,21 +50,6 @@ projects[falcor][download][type] = "git"
 projects[falcor][download][url] = "git://github.com/aaronlsilber/falkor.git"
 projects[falcor][download][branch] = "master"
 
-;projects[pavlov][type] = "theme"
-;projects[pavlov][download][type] = "git"
-;projects[pavlov][download][url] = "git://github.com/omnidoes/pavlov.git"
-;projects[pavlov][download][branch] = "master"
-;projects[pavlov][download][working-copy] = TRUE
-
-
-; Features
-;projects[euclid_article][type] = "module"
-;projects[euclid_article][subdir] = "features"
-;projects[euclid_article][download][type] = "git"
-;projects[euclid_article][download][url] = "git://github.com/omnidoes/euclid_article.git"
-;projects[euclid_article][download][branch] = "master"
-
-
 ; Libraries 
 libraries[fitvids][download][type] = "file"
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
