@@ -38,7 +38,7 @@ SSH-ing into your environment is as simple as running ```vagrant ssh``` from you
 Once you're in, navigate to `~/sites/[site-name]` and install the site using Drush and the Euclid installation profile (we're also setting the username and password for admin);
 
 ```
-drush si euclid --db-url=mysql://root:root@localhost/[site-name] --account-name=admin --account-pass=admin
+drush si euclid --db-url=mysql://root:@localhost/[site-name] --account-name=admin --account-pass=admin
 ```
 
 If asked to DROP all tabels in your database, say yes.
