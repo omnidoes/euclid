@@ -50,5 +50,6 @@ libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids
 libraries[fitvids][directory_name] = "fitvids"
 
 libraries[flexslider][download][type] = "git"
-libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
+libraries[flexslider][download][url] = "git://github.com/woothemes/FlexSlider.git"
+libraries[flexslider][download][branch] = "master"
 libraries[flexslider][directory_name] = "flexslider"
