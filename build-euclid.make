@@ -1,12 +1,7 @@
 core = 7.x
 api = 2
-
 projects[drupal][version] = "7.x"
 
-projects[falkor][type] = "theme"
-projects[falkor][download][type] = "git"
-projects[falkor][download][url] = "git://github.com/aaronlsilber/falkor.git"
-projects[falkor][download][branch] = "master"
 
 ; Grabbing an install profile, which will install dependencies with it's own make file
 ; Tutorial
