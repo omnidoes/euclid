@@ -89,6 +89,13 @@ function euclid_install() {
 
 
   /*
+   * Variables set for jQuery Update
+   */
+  variable_set('jquery_update_jquery_cdn', 'google');
+  variable_set('jquery_update_jquery_version', '1.10');
+  
+
+  /*
    * Default the front-page to 'blank'. Displays content feed.
    */
   // variable_set('site_frontpage', '');
