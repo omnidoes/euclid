@@ -49,6 +49,6 @@ libraries[fitvids][download][type] = "file"
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 libraries[fitvids][directory_name] = "fitvids"
 
-libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][type] = "git"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 libraries[flexslider][directory_name] = "flexslider"
